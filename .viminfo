@@ -11,19 +11,25 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<include\>
+~Msle0~/\<root\>
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1617591713,,"q"
 :wq
-|2,0,1617590994,,"wq"
+|2,0,1617602805,,"wq"
+:q!
+|2,0,1617602298,,"q!"
+:q
+|2,0,1617602294,,"q"
 :23
 |2,0,1617499745,,"23"
 :6
 |2,0,1617499584,,"6"
 
 # Search String History (newest to oldest):
+? \<root\>
+|2,1,1617600127,,"\\<root\\>"
+? \<sendfile\>
+|2,1,1617599546,,"\\<sendfile\\>"
 ? \<include\>
 |2,1,1617499751,,"\\<include\\>"
 ? \<error_log\>
@@ -68,242 +74,238 @@
 |3,0,36,0,1,0,1617500633,";"
 
 # File marks:
-'0  93  0  /usr/local/openresty/nginx/conf/nginx.conf
-|4,48,93,0,1617591713,"/usr/local/openresty/nginx/conf/nginx.conf"
-'1  24  31  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,49,24,31,1617590994,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'2  24  23  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,50,24,23,1617590936,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'3  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,51,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'4  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,52,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'5  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,53,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'6  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,54,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'7  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,55,40,4,1617589548,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'8  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,56,40,4,1617589548,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
-'9  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,57,40,4,1617589548,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
+'0  41  8  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
+|4,48,41,8,1617602805,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
+'1  1  0  ~/openresty-work/data/lua/module/infoModule.lua
+|4,49,1,0,1617602298,"~/openresty-work/data/lua/module/infoModule.lua"
+'2  5  24  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,50,5,24,1617601675,"~/openresty-work/data/lua/phase/infoViewController.lua"
+'3  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,51,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+'4  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,52,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+'5  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,53,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+'6  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,54,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+'7  21  57  ~/openresty-work/data/nginx/nginx.conf
+|4,55,21,57,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+'8  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,56,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+'9  21  79  ~/openresty-work/data/nginx/nginx.conf
+|4,57,21,79,1617600775,"~/openresty-work/data/nginx/nginx.conf"
 
 # Jumplist (newest first):
--'  93  0  /usr/local/openresty/nginx/conf/nginx.conf
-|4,39,93,0,1617591713,"/usr/local/openresty/nginx/conf/nginx.conf"
--'  4  0  /usr/local/openresty/nginx/conf/nginx.conf
-|4,39,4,0,1617591696,"/usr/local/openresty/nginx/conf/nginx.conf"
--'  24  31  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,31,1617590994,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  31  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,31,1617590994,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  23  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,23,1617590936,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  23  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,23,1617590936,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617590900,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617590900,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617590900,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617590900,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  20  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,20,1617589693,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589670,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589548,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  40  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,40,4,1617589548,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,24,1617589545,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  22  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,22,24,1617589545,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589532,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589428,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  35  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,35,1617589428,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589273,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589225,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  24  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,24,1617589225,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617589206,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617584898,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  27  4  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,27,4,1617584898,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584680,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584680,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584680,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584680,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584401,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  39  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,39,1617584401,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  38  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,38,1617584339,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  38  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,38,1617584339,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  47  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,47,1617583939,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  25  47  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,25,47,1617583939,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  24  45  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-|4,39,24,45,1617583906,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
--'  125  24  ~/cert/www_kuanspace_me.pem
-|4,39,125,24,1617583799,"~/cert/www_kuanspace_me.pem"
+-'  41  8  ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
+|4,39,41,8,1617602805,"~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf"
+-'  1  0  ~/openresty-work/data/lua/module/infoModule.lua
+|4,39,1,0,1617602298,"~/openresty-work/data/lua/module/infoModule.lua"
+-'  1  0  ~/openresty-work/data/lua/module/infoModule.lua
+|4,39,1,0,1617602298,"~/openresty-work/data/lua/module/infoModule.lua"
+-'  5  24  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,5,24,1617601675,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  5  24  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,5,24,1617601675,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  5  24  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,5,24,1617601675,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  5  24  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,5,24,1617601675,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601272,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601272,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601272,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601272,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  21  40  ~/openresty-work/data/nginx/nginx.conf
+|4,39,21,40,1617601233,"~/openresty-work/data/nginx/nginx.conf"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  3  35  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,3,35,1617601163,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  2  36  ~/openresty-work/data/lua/phase/infoViewController.lua
+|4,39,2,36,1617601135,"~/openresty-work/data/lua/phase/infoViewController.lua"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617601118,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  16  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,16,1617600897,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  23  38  ~/openresty-work/data/nginx/nginx.conf
+|4,39,23,38,1617600775,"~/openresty-work/data/nginx/nginx.conf"
+-'  31  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,31,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  31  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,31,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
+-'  33  0  ~/openresty-work/data/nginx/nginx.conf
+|4,39,33,0,1617600713,"~/openresty-work/data/nginx/nginx.conf"
 
 # History of marks within files (newest to oldest):
 
-> /usr/local/openresty/nginx/conf/nginx.conf
-	*	1617591712	0
-	"	93	0
-
 > ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-	*	1617590993	0
-	"	24	31
-	^	24	32
-	.	24	31
+	*	1617602795	0
+	"	41	8
+	^	41	9
+	.	41	8
 	+	18	5
-	+	40	4
+	+	42	4
 	+	18	5
 	+	21	24
 	+	3	36
@@ -324,6 +326,79 @@
 	+	25	35
 	+	22	24
 	+	24	31
+	+	33	97
+	+	30	11
+	+	31	11
+	+	30	11
+	+	31	11
+	+	30	11
+	+	31	11
+	+	8	10
+	+	9	10
+	+	38	8
+	+	39	8
+	+	40	8
+	+	41	8
+
+> ~/openresty-work/data/lua/module/infoModule.lua
+	*	1617602294	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/openresty-work/data/lua/phase/infoViewController.lua
+	*	1617601672	0
+	"	5	24
+	^	5	25
+	.	5	23
+	+	2	37
+	+	3	37
+	+	4	37
+	+	5	23
+
+> ~/openresty-work/data/nginx/nginx.conf
+	*	1617601232	0
+	"	21	40
+	^	21	41
+	.	22	0
+	+	3	0
+	+	5	0
+	+	3	21
+	+	8	0
+	+	5	33
+	+	6	35
+	+	5	22
+	+	6	23
+	+	20	5
+	+	22	0
+	+	26	0
+	+	31	0
+	+	31	48
+	+	31	159
+	+	31	0
+	+	31	6
+	+	31	0
+	+	30	63
+	+	5	31
+	+	21	41
+	+	6	0
+	+	21	41
+	+	30	69
+	+	23	4
+	+	21	41
+	+	22	0
+
+> ~/openresty-work/data/lua/phase/infoPage.lua
+	*	1617598611	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> /usr/local/openresty/nginx/conf/nginx.conf
+	*	1617591712	0
+	"	93	0
 
 > ~/cert/www_kuanspace_me.pem
 	*	1617583797	0
@@ -356,35 +431,6 @@
 	+	1	24
 	+	1	27
 	+	125	24
-
-> ~/openresty-work/data/nginx/nginx.conf
-	*	1617582365	0
-	"	32	69
-	^	32	70
-	.	32	69
-	+	3	0
-	+	5	0
-	+	3	21
-	+	8	0
-	+	5	33
-	+	6	35
-	+	5	22
-	+	6	23
-	+	20	5
-	+	24	0
-	+	28	0
-	+	33	0
-	+	33	48
-	+	33	159
-	+	33	0
-	+	33	6
-	+	33	0
-	+	32	63
-	+	5	31
-	+	21	41
-	+	6	0
-	+	23	0
-	+	32	69
 
 > ~/cert/kuanspace.me.
 	*	1617581719	0

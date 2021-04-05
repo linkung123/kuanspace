@@ -342,3 +342,86 @@ vi kuanspace.me.conf
 openresty -h
 ls
 vi kuanspace.me.conf 
+/usr/local/openresty
+cd /usr/local/openresty
+ls
+cd nginx/
+ls
+cd ..
+cd ~
+ls
+openresty -h
+openresty -p /home/ubuntu
+cd /usr/local/openresty
+ls
+cd nginx/
+ls
+cd ~
+cd /etc/nginx/conf.d/
+ls
+cd /usr/local/openresty
+ls
+cd nginx/
+
+cd conf/
+ls
+ps aux | grep nginx
+vi nginx.conf
+ps aux | grep nginx
+cd ~
+git config --list
+git log
+git status
+git add
+ls
+ls -al
+git add
+git add .
+git status
+git commit
+git commit -m "ssl setup"
+git status
+git push
+ls
+cd openresty-work/
+ls
+cd data/
+cd nginx/
+ls
+cd site-enabled/
+ls
+cd ..
+vi nginx.conf 
+cd site-enabled/
+ls
+vi kuanspace.me.conf 
+exit
+pwd
+ls
+cd openresty-work/
+cd data/nginx/
+cd site-enabled/
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi kuanspace.me.conf 
+ls
+
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi kuanspace.me.conf 
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi kuanspace.me.conf 
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+sudo  openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s stop
+sudo  openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf
+exit
+cd /var/log/nginx/error.log
+cd /var/log/nginx/
+ls
+pwd
+cd ..
+ls
+cd nginx/
+ls
+exit
