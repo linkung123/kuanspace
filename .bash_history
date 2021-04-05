@@ -425,3 +425,125 @@ ls
 cd nginx/
 ls
 exit
+cd openresty-work/
+cd data/
+ls
+cd lua/
+ls
+cd phase/
+pwd
+ls
+tail -f /var/log/nginx/error.log
+tree
+ls
+cd openresty-work/data/lua/
+ls
+cd phase/
+ls
+touch infoPage.lua
+ls
+cd ..
+ls
+cd phase/
+vi infoPage.lua 
+rm infoPage.lua 
+touch infoViewController.lua
+vi infoViewController.lua 
+cd ..
+cd nginx/site-enabled/
+ls
+vi kuanspace.me.conf 
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+ls
+cd site-enabled/
+vi kuanspace.me.conf 
+cd ..
+ls
+vi nginx.conf 
+cd ..
+ls
+cd lua/
+cd phase/
+vi infoViewController.lua 
+cd ..
+lls
+ls
+cd ..
+cd nginx/
+ls
+vi nginx.conf 
+cd site-enabled/
+ls
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi kuanspace.me.conf 
+cd ..
+ls
+vi nginx.conf 
+cd site-enabled/
+ls
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+cd ..
+vi nginx.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+vi nginx.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi nginx.conf 
+cd ..
+ls
+cd lua/
+ls
+cd phase/
+vi infoViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+ls
+cd ..
+cd nginx/
+ls
+vi nginx.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+cd lua/phase/
+vi infoViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+ls
+cd module/
+ls
+touch infoModule.lua
+vi infoModule.lua 
+cd ..
+ls
+cd ..
+cd nginx/site-enabled/
+ls
+vi kuanspace.me.conf 
+cd ~
+ls
+git log
+git status
+git add .
+ls
+git status
+git commit -m "init infoViewController"
+git push
+git status
+cd openresty-work/data/lua/module/
+ls
+vi infoModule.lua 
+cd ..
+cd phase/
+ls
+vi infoViewController.lua 
+cd ..
+cd nginx/site-enabled/
+vi kuanspace.me.conf 
