@@ -17,14 +17,24 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1617614136,,"q"
 :wq
-|2,0,1617614084,,"wq"
-:q!
-|2,0,1617612742,,"q!"
+|2,0,1617761669,,"wq"
+:15
+|2,0,1617761371,,"15"
+:q
+|2,0,1617759918,,"q"
 :7
-|2,0,1617612155,,"7"
+|2,0,1617759655,,"7"
+:q!
+|2,0,1617757389,,"q!"
+:63
+|2,0,1617756558,,"63"
+:65
+|2,0,1617755582,,"65"
+:64
+|2,0,1617755307,,"64"
+:22
+|2,0,1617690393,,"22"
 :qall
 |2,0,1617611952,,"qall"
 :24
@@ -36,7 +46,7 @@ $
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1617611810,,"@$"
+|2,1,1617759503,,"@$"
 ? \<local\>
 |2,1,1617610993,,"\\<local\\>"
 ? \<lua_package_path\>
@@ -57,271 +67,542 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	ngx.say("--------------------------")
-|3,0,0,1,1,0,1617611810,"ngx.say(\"--------------------------\")"
+""0	LINE	0
+	
+|3,1,0,1,1,0,1617759503,""
 "1	LINE	0
-	ngx.say("--------------------------")
-|3,0,1,1,1,0,1617608571,"ngx.say(\"--------------------------\")"
+	
+|3,0,1,1,1,0,1617691194,""
 "2	LINE	0
-	MIIFrzCCBJegAwIBAgIQBq56Zy9LRo74Ivg+Fo4lGTANBgkqhkiG9w0BAQsFADCB
-|3,0,2,1,1,0,1617582580,"MIIFrzCCBJegAwIBAgIQBq56Zy9LRo74Ivg+Fo4lGTANBgkqhkiG9w0BAQsFADCB"
+	    end
+|3,0,2,1,1,0,1617691193,"    end"
 "3	LINE	0
-	jzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
-|3,0,3,1,1,0,1617582580,"jzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G"
+	        end
+|3,0,3,1,1,0,1617691192,"        end"
 "4	LINE	0
-	A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQD
-|3,0,4,1,1,0,1617582580,"A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQD"
+		    return protocol
+|3,0,4,1,1,0,1617691192,"	    return protocol"
 "5	LINE	0
-	Ey5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENB
-|3,0,5,1,1,0,1617582580,"Ey5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENB"
+		    local protocol, err = ssl.get_tls1_version_str()
+|3,0,5,1,1,0,1617691191,"	    local protocol, err = ssl.get_tls1_version_str()"
 "6	LINE	0
-	MB4XDTIxMDMwMTAwMDAwMFoXDTIyMDMwMTIzNTk1OVowGzEZMBcGA1UEAxMQd3d3
-|3,0,6,1,1,0,1617582580,"MB4XDTIxMDMwMTAwMDAwMFoXDTIyMDMwMTIzNTk1OVowGzEZMBcGA1UEAxMQd3d3"
+		    local ssl = require "ngx.ssl"
+|3,0,6,1,1,0,1617691190,"	    local ssl = require \"ngx.ssl\""
 "7	LINE	0
-	MB4XDTIxMDMwMTAwMDAwMFoXDTIyMDMwMTIzNTk1OVowGzEZMBcGA1UEAxMQd3d3
-|3,0,7,1,1,0,1617582580,"MB4XDTIxMDMwMTAwMDAwMFoXDTIyMDMwMTIzNTk1OVowGzEZMBcGA1UEAxMQd3d3"
+		if scheme == "https" then
+|3,0,7,1,1,0,1617691190,"	if scheme == \"https\" then"
 "8	LINE	0
-	G+Lr30GN65ZNWBxyHBtRTmwTFdAgv1bCYl0r925aIRhu6nCUiUYSnqlvGMSMH85P
-|3,0,8,1,1,0,1617582579,"G+Lr30GN65ZNWBxyHBtRTmwTFdAgv1bCYl0r925aIRhu6nCUiUYSnqlvGMSMH85P"
+	        local scheme = ngx.var.scheme
+|3,0,8,1,1,0,1617691190,"        local scheme = ngx.var.scheme"
 "9	LINE	0
-	9hz6rfvTI8Li69oTS2UyWI6dSh5DFZNw7wrRPBcIz4u7/n+pdbC18QHfRFigXAYj
-|3,0,9,1,1,0,1617582579,"9hz6rfvTI8Li69oTS2UyWI6dSh5DFZNw7wrRPBcIz4u7/n+pdbC18QHfRFigXAYj"
-""-	CHAR	0
-	)
-|3,1,36,0,1,0,1617612357,")"
+	    if index == "tls_version" then
+|3,0,9,1,1,0,1617691189,"    if index == \"tls_version\" then"
+"-	CHAR	0
+	"
+|3,0,36,0,1,0,1617754260,"\""
 
 # File marks:
-'0  31  27  ~/openresty-work/data/nginx/nginx.conf
-|4,48,31,27,1617614136,"~/openresty-work/data/nginx/nginx.conf"
-'1  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,49,7,1,1617614084,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'2  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,50,7,1,1617613920,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'3  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,51,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
-'4  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,52,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'5  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,53,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'6  6  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,54,6,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'7  6  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,55,6,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'8  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,56,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
-'9  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,57,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
+'0  12  7  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,48,12,7,1617761669,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'1  59  21  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,49,59,21,1617761634,"~/openresty-work/data/lua/module/InformationModule.lua"
+'2  17  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,50,17,2,1617761619,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'3  16  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,51,16,2,1617761619,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'4  18  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,52,18,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'5  15  61  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,53,15,61,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'6  18  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,54,18,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'7  17  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,55,17,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'8  14  61  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,56,14,61,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+'9  17  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,57,17,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
 
 # Jumplist (newest first):
--'  31  27  ~/openresty-work/data/nginx/nginx.conf
-|4,39,31,27,1617614136,"~/openresty-work/data/nginx/nginx.conf"
--'  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,7,1,1617614084,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,7,1,1617614084,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,7,1,1617613920,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  7  1  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,7,1,1617613920,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613737,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  30  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,30,1617613591,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613576,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  20  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,20,1617613563,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,32,1617613531,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,32,1617613531,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,32,1617613531,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  6  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,6,32,1617613531,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,32,1617613511,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,32,1617613511,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,32,1617613511,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  5  32  ~/openresty-work/data/lua/phase/InfoViewController.lua
-|4,39,5,32,1617613511,"~/openresty-work/data/lua/phase/InfoViewController.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
--'  4  28  ~/openresty-work/data/lua/module/InfoModule.lua
-|4,39,4,28,1617613485,"~/openresty-work/data/lua/module/InfoModule.lua"
+-'  12  7  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,12,7,1617761669,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  17  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,17,2,1617761649,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  59  21  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,59,21,1617761634,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  59  21  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,59,21,1617761634,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  16  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,16,2,1617761619,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  56  217  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,56,217,1617761398,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  56  217  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,56,217,1617761398,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  15  61  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,61,1617761369,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  61  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,61,1617761369,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  18  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,18,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  17  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,17,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  17  34  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,17,34,1617761347,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  22  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,22,2,1617761298,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  21  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,21,2,1617761298,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  21  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,21,2,1617761298,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  21  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,21,2,1617761276,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  21  2  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,21,2,1617761276,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  16  54  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,16,54,1617760990,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  54  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,54,1617760990,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  54  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,54,1617760990,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  54  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,54,1617760990,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  54  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,54,1617760990,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760962,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  61  23  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,61,23,1617760950,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760947,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  13  41  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,13,41,1617760947,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760925,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760861,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,11,1617760861,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  14  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,14,11,1617760861,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  15  11  ~/openresty-work/data/lua/phase/InformationViewController.lua
+|4,39,15,11,1617760861,"~/openresty-work/data/lua/phase/InformationViewController.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
+-'  60  102  ~/openresty-work/data/lua/module/InformationModule.lua
+|4,39,60,102,1617760760,"~/openresty-work/data/lua/module/InformationModule.lua"
 
 # History of marks within files (newest to oldest):
 
+> ~/openresty-work/data/lua/phase/InformationViewController.lua
+	*	1617761665	0
+	"	12	7
+	^	12	8
+	.	12	8
+	+	4	32
+	+	15	113
+	+	13	69
+	+	14	0
+	+	14	39
+	+	14	57
+	+	14	0
+	+	14	69
+	+	15	169
+	+	14	43
+	+	15	133
+	+	15	173
+	+	14	53
+	+	14	15
+	+	14	42
+	+	15	132
+	+	15	172
+	+	15	143
+	+	15	132
+	+	14	70
+	+	15	33
+	+	15	73
+	+	15	69
+	+	15	110
+	+	15	65
+	+	15	113
+	+	16	0
+	+	15	59
+	+	14	41
+	+	15	4
+	+	17	2
+	+	16	21
+	+	14	12
+	+	12	8
+
+> ~/openresty-work/data/lua/module/InformationModule.lua
+	*	1617761633	0
+	"	59	21
+	^	59	22
+	.	59	21
+	+	1	19
+	+	56	136
+	+	56	138
+	+	56	139
+	+	56	93
+	+	56	193
+	+	56	195
+	+	60	0
+	+	56	195
+	+	56	181
+	+	56	227
+	+	56	241
+	+	52	29
+	+	60	0
+	+	56	208
+	+	56	194
+	+	60	0
+	+	57	7
+	+	56	86
+	+	57	11
+	+	59	0
+	+	58	7
+	+	57	17
+	+	59	21
+
+> ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
+	*	1617760676	0
+	"	10	85
+	^	10	86
+	.	10	85
+	+	19	5
+	+	45	4
+	+	19	5
+	+	22	24
+	+	3	36
+	+	22	27
+	+	23	38
+	+	27	0
+	+	22	28
+	+	28	46
+	+	27	3
+	+	28	4
+	+	30	4
+	+	27	33
+	+	28	47
+	+	28	0
+	+	27	34
+	+	28	38
+	+	27	31
+	+	28	35
+	+	23	24
+	+	27	31
+	+	36	97
+	+	33	11
+	+	34	11
+	+	33	11
+	+	34	11
+	+	33	11
+	+	34	11
+	+	8	10
+	+	9	10
+	+	41	8
+	+	42	8
+	+	43	8
+	+	44	8
+	+	25	46
+	+	11	7
+	+	10	97
+	+	15	8
+	+	16	8
+	+	17	8
+	+	18	8
+	+	36	85
+	+	25	81
+	+	10	85
+
+> ~/openresty-work/data/lua/module/FunctionKeeperModule.lua
+	*	1617759941	0
+	"	3	16
+	^	3	17
+	.	3	16
+	+	6	0
+	+	11	0
+	+	6	3
+	+	13	8
+	+	3	36
+	+	6	22
+	+	7	0
+	+	4	20
+	+	7	26
+	+	6	32
+	+	3	24
+	+	6	26
+	+	3	24
+	+	5	20
+	+	8	19
+	+	10	24
+	+	7	29
+	+	8	22
+	+	7	29
+	+	3	16
+
+> ~/openresty-work/data/lua/module/FunctionModule.lua
+	*	1617757387	0
+	"	3	7
+	^	3	8
+	.	3	7
+	+	3	7
+
+> ~/openresty-work/data/lua/phase/InformationModule.lua
+	*	1617757168	0
+	"	4	32
+	^	4	33
+	.	4	32
+	+	4	32
+
+> ~/openresty-work/data/lua/module/InfoModule.lua
+	*	1617757110	0
+	"	1	12
+	^	1	13
+	.	66	14
+	+	22	53
+	+	22	19
+	+	22	27
+	+	22	3
+	+	24	24
+	+	25	19
+	+	35	6
+	+	22	0
+	+	34	7
+	+	32	12
+	+	33	15
+	+	38	22
+	+	39	0
+	+	25	14
+	+	40	21
+	+	40	29
+	+	40	25
+	+	41	39
+	+	42	10
+	+	40	19
+	+	39	16
+	+	46	33
+	+	47	47
+	+	48	17
+	+	18	32
+	+	19	35
+	+	20	9
+	+	18	23
+	+	46	20
+	+	52	33
+	+	64	14
+	+	53	4
+	+	68	0
+	+	53	30
+	+	51	20
+	+	47	14
+	+	48	8
+	+	64	3
+	+	54	3
+	+	55	6
+	+	56	3
+	+	60	3
+	+	63	7
+	+	64	4
+	+	53	51
+	+	68	0
+	+	54	0
+	+	67	6
+	+	64	7
+	+	63	11
+	+	60	7
+	+	56	7
+	+	55	11
+	+	54	7
+	+	53	2
+	+	60	32
+	+	53	25
+	+	63	18
+	+	4	37
+	+	11	28
+	+	4	17
+	+	17	25
+	+	25	33
+	+	39	27
+	+	45	30
+	+	51	23
+	+	63	24
+	+	52	27
+	+	19	37
+	+	59	17
+	+	58	17
+	+	59	17
+	+	63	0
+	+	59	18
+	+	59	33
+	+	61	19
+	+	62	7
+	+	61	10
+	+	62	22
+	+	62	47
+	+	63	31
+	+	62	56
+	+	63	43
+	+	63	48
+	+	64	18
+	+	64	0
+	+	64	35
+	+	64	67
+	+	64	31
+	+	64	56
+	+	64	67
+	+	64	11
+	+	61	26
+	+	62	26
+	+	63	0
+	+	60	0
+	+	65	9
+	+	63	20
+	+	65	16
+	+	66	14
+
+> ~/openresty-work/data/lua/phase/Info
+	*	1617757069	0
+	"	1	0
+
 > ~/openresty-work/data/nginx/nginx.conf
-	*	1617614134	0
+	*	1617757012	0
 	"	31	27
 	^	31	28
-	.	31	26
+	.	31	27
 	+	3	0
 	+	5	0
 	+	3	21
@@ -355,80 +636,54 @@ $
 	+	29	4
 	+	31	4
 	+	32	3
-	+	31	26
+	+	31	27
 
 > ~/openresty-work/data/lua/phase/InfoViewController.lua
-	*	1617614082	0
-	"	7	1
-	^	7	2
-	.	7	1
+	*	1617755281	0
+	"	13	28
+	^	13	29
+	.	13	28
 	+	4	33
-	+	7	55
-	+	7	29
-	+	7	46
-	+	7	24
-	+	7	38
+	+	6	79
+	+	6	53
+	+	6	70
+	+	6	48
+	+	6	62
 	+	1	2
-	+	7	41
-	+	7	31
-	+	7	47
-	+	7	31
-	+	7	40
-	+	7	32
-	+	7	33
-	+	7	31
+	+	6	65
+	+	6	55
+	+	6	71
+	+	6	55
+	+	6	64
+	+	6	56
+	+	6	57
+	+	6	55
 	+	6	20
-	+	7	30
+	+	6	54
 	+	5	45
 	+	6	1
-	+	7	1
+	+	6	24
+	+	6	47
+	+	7	0
+	+	7	45
+	+	8	21
+	+	4	10
+	+	5	33
+	+	6	30
+	+	7	22
+	+	8	32
+	+	9	46
+	+	10	41
+	+	9	36
+	+	10	45
+	+	11	37
+	+	13	6
+	+	11	0
+	+	13	28
 
-> ~/openresty-work/data/lua/module/InfoModule.lua
-	*	1617613735	0
-	"	4	28
-	^	4	29
-	.	5	0
-	+	6	48
-	+	3	17
-	+	6	3
-	+	6	39
-	+	3	49
-	+	6	43
-	+	6	7
-	+	6	48
-	+	3	24
-	+	6	1
-	+	6	36
-	+	6	38
-	+	3	42
-	+	3	39
-	+	6	40
-	+	6	35
-	+	6	0
-	+	3	23
-	+	3	51
-	+	4	47
-	+	6	37
-	+	6	32
-	+	3	42
-	+	6	7
-	+	3	24
-	+	4	29
-	+	9	0
-	+	6	7
-	+	4	41
-	+	3	23
-	+	4	3
-	+	4	33
-	+	4	22
-	+	4	35
-	+	8	6
-	+	4	28
-	+	6	7
-	+	5	31
-	+	6	37
-	+	7	18
-	+	5	0
+> ~/openresty-work/data/lua/module/.InfoModule.lua.swp
+	*	1617688934	0
+	"	1	0
 
 > ~/openresty-work/data/lua/phase/infoViewController.lua
 	*	1617608760	0
@@ -453,48 +708,6 @@ $
 	.	8	8
 	+	1	0
 	+	8	8
-
-> ~/openresty-work/data/nginx/site-enabled/kuanspace.me.conf
-	*	1617603819	0
-	"	24	47
-	^	43	9
-	.	24	46
-	+	18	5
-	+	44	4
-	+	18	5
-	+	21	24
-	+	3	36
-	+	21	27
-	+	22	38
-	+	26	0
-	+	21	28
-	+	27	46
-	+	26	3
-	+	27	4
-	+	29	4
-	+	26	33
-	+	27	47
-	+	27	0
-	+	26	34
-	+	27	38
-	+	26	31
-	+	27	35
-	+	22	24
-	+	26	31
-	+	35	97
-	+	32	11
-	+	33	11
-	+	32	11
-	+	33	11
-	+	32	11
-	+	33	11
-	+	8	10
-	+	9	10
-	+	40	8
-	+	41	8
-	+	42	8
-	+	43	8
-	+	24	46
 
 > ~/openresty-work/data/lua/phase/infoPage.lua
 	*	1617598611	0
