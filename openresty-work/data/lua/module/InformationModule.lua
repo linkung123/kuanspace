@@ -37,19 +37,19 @@ function _M.https(index)
 end
 
 function _M.req(index)
-    --request uri, -> string
+    --get request uri, -> string
     if index == "uri" then
         local uri = ngx.var.request_uri
 	return uri
     end
 
-    --request method, -> string
+    --get request method, -> string
     if index == "get_method" then
         local method = ngx.req.get_method()
 	return method
     end
 
-    --request header, -> table{table, table}
+    --get request header, -> table{table, table}
     if index == "get_headers" then
         local headers, err = ngx.req.get_headers()
         if err == "truncated" then
@@ -60,5 +60,16 @@ function _M.req(index)
     end
 end
 
+function _M.resp(index)
+    --get response headers
+    if index == "get_headers" then
+        local headers, err = ngx.resp.get_headers()
+	if err == "truncated" then
+            -- one can choose to ignore or reject the current request here
+            return
+        end
+	return headers
+    end
+end
 
 return _M
