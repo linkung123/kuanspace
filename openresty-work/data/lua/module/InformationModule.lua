@@ -49,7 +49,7 @@ function _M.req(index)
 	return method
     end
 
-    --get request header, -> table{table, table}
+    --get request header, -> table{ table, table}
     if index == "get_headers" then
         local headers, err = ngx.req.get_headers()
         if err == "truncated" then
@@ -58,10 +58,21 @@ function _M.req(index)
         end
         return headers
     end
+
+    --get args, -> table{ table, tablbe}
+    if index == "get_args" then
+        local args, err = ngx.req.get_uri_args()
+        if err == "truncated" then
+            -- one can choose to ignore or reject the current request here
+            return
+        end
+	return args
+    end
+
 end
 
 function _M.resp(index)
-    --get response headers
+    --get response headers, -> table{ table, table}
     if index == "get_headers" then
         local headers, err = ngx.resp.get_headers()
 	if err == "truncated" then
@@ -69,6 +80,12 @@ function _M.resp(index)
             return
         end
 	return headers
+    end
+
+    --resoponse sever version, -> string
+    if index == "sever_version" then
+        local version = ngx.var.nginx_version
+	return "openresty/"..version
     end
 end
 

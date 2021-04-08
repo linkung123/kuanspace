@@ -877,3 +877,281 @@ vi module/
 cd module/
 ls
 vi FunctionKeeperModule.lua 
+tail -f /var/log/nginx/error.log
+ls
+git status
+git add .
+git status
+git log
+git commit
+git lod
+git log
+git commit -m "init FunctionModule.lua"
+git commit -M "update InformationViewController.lua"
+git commit -m "update InformationViewController.lua"
+git log 
+git push
+ls
+git status
+git add .
+git status
+git commit -a
+git commit -m "update InformationViewController respone headers"
+git status
+git push
+git log
+ls
+tail -f /var/log/nginx/error.log
+tree
+cd openresty-work/data/lua/phase/
+ls
+vi InfoViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+cd module/
+ls
+cd ..
+cd phase/
+ls
+vi InfoViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InfoViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+cd ..
+ls
+cd module/
+ls
+touch FunctionModule.lua
+rm FunctionModule.lua 
+cd ..
+tree
+cd module/
+ls
+cp InfoModule.lua InformationModule.lua
+ls
+cd ..
+ls
+cd phase/
+ls
+cp InfoViewController.lua InformationModule.lua
+cd ..
+ls
+cd ..
+ls
+cd nginx/
+ls
+vi nginx.conf 
+cd site-enabled/
+ls
+vi kuanspace.me.conf 
+ls
+cd ..
+cd lua/phase/
+vi Info
+vi InformationModule.lua 
+ls
+vi InformationModule.lua 
+rm InformationModule.lua 
+cp InfoViewController.lua InformationViewController.lua
+ls
+rm InfoViewController.lua 
+ls
+cd ..
+cd module/
+ls
+vi FunctionKeeperModule.lua 
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+cd ..
+ls
+cd phase/
+ls
+vi InformationViewController.lua 
+ls
+cd ..
+ls
+cd module/
+vi InformationModule.lua 
+ls -al
+rm .InformationModule.lua.swp 
+ls
+vi FunctionKeeperModule.lua 
+cd ..
+ls
+cd phase/
+vi InformationViewController.lua 
+vi InformationViewController.lua openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+cd ..
+ls
+cd ..
+ls
+cd nginx/
+ls
+cd site-enabled/
+vi kuanspace.me.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+ls
+cd ..
+cd lua/
+ls
+cd phase/
+ls
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi InformationViewController.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+ls
+cd ..
+cd module/
+ls
+vi InformationModule.lua 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+cd ..
+cd n
+cd ..
+cd nginx/
+ls
+vi nginx.conf 
+sudo openresty -c /home/ubuntu/openresty-work/data/nginx/nginx.conf -s reload
+vi nginx.conf 
+tree
+ls
+cd openresty-work/
+l
+ls
+cd data/lua/phase/
+ls
+vi InformationViewController.lua 
+tree
+cd openresty-work/data/lua/module/
+ls -al
+cd ..
+cd phase/
+ls
+ls -al
+vi 
+cd nginx/
+ls -al
+cd site-enabled/
+ls
+cd ..
+ls
+cd lua/
+ls
+
+vi InfoModule.lua 
+cp InfoModule.lua InformationModule.lua 
+rm InfoModule.lua 
+ls
+touch FunctionModule.lua
+vi FunctionModule.lua 
+ls
+cp FunctionModule.lua KeeperModule.lua
+ls
+rm FunctionModule.lua 
+cp KeeperModule.lua FunctionKeeperModule.lua
+rm KeeperModule.lua 
+vi FunctionKeeperModule.lua 
+
+vi InformationModule.lua 
+ls
+vi InformationModule.lua 
+ls
+vi InformationModule.lua 
+ls
+vi FunctionKeeperModule.lua 
+vi InformationModule.lua 
+ls
+vi FunctionKeeperModule.lua 
+touch DefaultSetupModule.lua
+vi DefaultSetupModule.lua 
+ls
+vi FunctionKeeperModule.lua 
+ls
+lstail -f /var/log/nginx/error.log
+tail -f /var/log/nginx/error.log
+cd openresty-work/data/lua/
+cd phase/
+ls -al
+rm .InformationViewController.lua.swp 
+ls
+cd ..
+ls
+cd phase/
+ls -al
+cd ..
+cd nginx/
+ls
+ks -al
+ls -al
+rm .nginx.conf.swp 
+ls
+cd site-enabled/
+ls -al
+cd ..
+vi nginx.conf 
+ls
+cd ..
+cd lua/
+ls
+cd module/
+ls
+vi FunctionKeeperModule.lua 
+vi DefaultSetupModule.lua 
+ls
+cd ..
+ls
+cd phase/
+ls
+vi InformationViewController.lua 
+cd ..
+cd module/
+vi InformationModule.lua 
+ls
+vi FunctionKeeperModule.lua 
+tree
+cd openresty-work/data/nginx/
+ls
+cd ..
+cd lua/
+ls
+cd phase/
+ls
+vi InformationViewController.lua 

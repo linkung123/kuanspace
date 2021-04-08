@@ -1,5 +1,7 @@
 --InfoViewController
 ngx.say("Information ViewController")
+local default = require "DefaultSetupModule"
+default.setup()
 
 ngx.say()
 ngx.say("---------General----------")
@@ -18,9 +20,20 @@ for k, v in pairs(headers) do
     ngx.say(k..": "..v)
 end
 
+ngx.say("-------Request args-------")
+local args = info.req("get_args")
+for k, v in pairs(args) do
+    if type(v) == "table" then
+        ngx.say(k, ": ", table.concat(val, ", "))
+    else
+        ngx.say(k, ": ", v)
+    end
+end
+
 ngx.say()
 ngx.say("-----Response Headers-----")
 local headers = info.resp("get_headers")
 for k, v in pairs(headers) do
     ngx.say(k..": "..v)
 end
+ngx.say("sever: ",info.resp("sever_version"))
