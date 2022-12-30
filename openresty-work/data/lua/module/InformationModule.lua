@@ -1,5 +1,6 @@
 --Information Module
 local _M = {}
+--ngx.log(ERR,"hit host: "..ngx.var.host)
 
 function _M.http(index)
     --http code, -> string
@@ -37,6 +38,11 @@ function _M.https(index)
 end
 
 function _M.req(index)
+    if index == "req_port" then
+        local port = ngx.var.server_port
+        return port
+    end
+
     --get request uri, -> string
     if index == "uri" then
         local uri = ngx.var.request_uri
@@ -46,6 +52,7 @@ function _M.req(index)
     --get request method, -> string
     if index == "get_method" then
         local method = ngx.req.get_method()
+        if method == "POST" then ngx.exit(444) end
 	return method
     end
 
@@ -79,6 +86,7 @@ function _M.resp(index)
             -- one can choose to ignore or reject the current request here
             return
         end
+        --ngx.header["kuanspacetest"] = "fortest"
 	return headers
     end
 
